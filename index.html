@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>" La moyenne, la variance et l'écart-Type "</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>" La moyenne, la variance et l'écart-Type "</h1>
+    <input
+      placeholder="Entrer vos valeurs, séparer vos valeur pas des virgules"
+      class="valeurs"
+    /><span><button class="btn btn-moy">Calculate</button></span><br /><br />
+    <select id="select-variable">
+      <option value="">Veuillez choisir votre variable</option>
+      <option value="population">Population</option>
+      <option value="autre">Autre</option>
+    </select>
+    <div class="big-box">
+      <div class="result-moy">
+        <p>La moyenne est :</p>
+        <p class="moyenne">0</p>
+      </div>
+      <div class="result-variance">
+        <p>La variance est :</p>
+        <p class="variance">0</p>
+      </div>
+      <div class="result-sigma">
+        <p>L'écart-Type est :</p>
+        <p id="sigma">0</p>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
